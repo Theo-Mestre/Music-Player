@@ -94,6 +94,11 @@
     <ClInclude Include="Source\Win32\Framework.h" />
     <ClInclude Include="Source\Win32\LoadOAL.h" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Source\MusicPlayer.resx">
+      <DependentUpon>Source\MusicPlayer.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

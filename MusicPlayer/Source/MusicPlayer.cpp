@@ -14,3 +14,14 @@ void Main(array<String^>^ args)
 	Application::Run(% form);
 }
 
+System::Void MusicPlayer::MusicPlayer::MusicPlayer_Load(System::Object^ sender, System::EventArgs^ e)
+{
+	return System::Void();
+}
+
+System::Void MusicPlayer::MusicPlayer::button1_Click(System::Object^ sender, System::EventArgs^ e)
+{
+
+
+	return System::Void();
+}
